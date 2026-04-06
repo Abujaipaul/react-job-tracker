@@ -1,16 +1,18 @@
-# React + Vite
+# React Job Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, client-side React application designed to help job seekers efficiently track their applications, manage, and monitor expected salaries. Built with a focus on responsive data filtering and persistent local storage.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **CRUD Operations:** Seamlessly add new job entries and remove/delete outdated ones from the dashboard.
+* **Persistent Memory:** Utilizes `localStorage` with lazy state initialization to prevent data loss on browser refresh and eliminate race conditions.
+* **Advanced Filtering (Derived State):** Features a robust dual-filter system allowing users to search by Company Name (text input) AND filter by Application Status (dropdown) simultaneously, all without mutating the original dataset.
+* **Dynamic Stats Dashboard:** Automatically calculates and displays total applications and currently active interview pipelines.
+* **Currency Formatting:** Implements the `Intl.NumberFormat` API to dynamically render salaries in standard NGN currency format.
+* **Form Validation:** Includes custom inline UI error handling to prevent incomplete or invalid data entries.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Engine:** React (Vite)
+* **Styling Architecture:** Pure Vanilla CSS (Custom Flexbox layouts)
+* **State Management:** React Hooks (`useState`, `useEffect`)
