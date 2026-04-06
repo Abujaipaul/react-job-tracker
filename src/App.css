@@ -1,0 +1,76 @@
+body{
+  font-family: 'inter', sans-serif;
+}
+.form-div{
+  border: 2px dotted black;
+  padding: 5px;
+  width: 400px;
+  max-width: 450px;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+input, #status{
+  margin: 10px 0px;
+  border: 1px solid salmon;
+  outline: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+#salary{
+  margin-bottom: 20px;
+}
+#submit-button{
+  padding: 5px 21px;
+  border-radius: 5px;
+  color: black;
+  border: white;
+  background-color: green;
+}
+#submit-button:hover{
+  background-color: black;
+  color: green;
+}
+.search-div{
+    border: 2px dotted black;
+  padding: 5px;
+  width: 400px;
+  max-width: 450px;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+#search{
+  margin-right: 5px;
+}
+#total, #current{
+  color: salmon;
+}
+.job-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#card{
+     border: 2px dotted black;
+  padding: 10px;
+  margin: 1px;
+  text-align: center;
+}
+#delete-button{
+  color: black;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+#delete-button:hover{
+  color: red;
+  background-color: black;
+}
+#error{
+  color: red;
+  font-size: 13px;
+}
