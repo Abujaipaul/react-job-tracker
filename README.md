@@ -1,6 +1,6 @@
 # React Job Tracker
 
-A simple, client-side React application designed to help job seekers efficiently track their applications, manage, and monitor expected salaries. Built with a focus on responsive data filtering and persistent local storage.
+Built a simple, client-side React application designed to help job seekers efficiently track their applications, manage, and monitor expected salaries. Built with a focus on responsive data filtering and persistent local storage.
 
 ## Key Features
 
