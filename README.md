@@ -16,3 +16,19 @@ Built a simple, client-side React application designed to help job seekers effic
 * **Frontend Engine:** React (Vite)
 * **Styling Architecture:** Pure Vanilla CSS (Custom Flexbox layouts)
 * **State Management:** React Hooks (`useState`, `useEffect`)
+
+##  Getting Started
+
+To view and run this dashboard locally on your machine:
+
+1. Clone the repository:
+`git clone https://github.com/Abujaipaul/react-job-tracker.git`
+
+2. Navigate into the project directory:
+`cd react-job-tracker`
+
+3. Install the required dependencies:
+`npm install`
+
+4. Spin up the Vite development server:
+`npm run dev`
