@@ -31,4 +31,4 @@ To view and run this dashboard locally on your machine:
 `npm install`
 
 4. Spin up the Vite development server:
-`npm run dev`
+`npm run dev` ....
